@@ -12,6 +12,6 @@ function myArr(mili) {
   return mili;
 }
 
-console.log(myArr(milili));
+console.log(myArr(milili)); // Change this line
 
 module.exports = myArr;
