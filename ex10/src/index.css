@@ -3,10 +3,12 @@ body {
   position: relative;
   padding: 0;
 }
+
 header {
   margin: 5px;
   margin-right: 10px;
 }
+
 #nav_bar {
   display: flex;
   align-items: center;
@@ -26,14 +28,16 @@ header {
 #sign_in {
   background-color: #4285f4;
   border-radius: 5px;
-  text-decoration: none;
   padding: 7px;
-  color: white;
 }
 
 a {
   text-decoration: none;
   color: rgba(36, 35, 35, 0.9);
+}
+
+#nav_bar #sign_in a {
+  color: white;
 }
 
 .google-image {
@@ -98,18 +102,23 @@ footer {
 #Advertising {
   padding-left: 10px;
 }
+
 #Business {
   padding-left: 15px;
 }
+
 #About {
   padding-left: 15px;
 }
+
 #Privacy {
   padding-right: 15px;
 }
+
 #Terms {
   padding-right: 15px;
 }
+
 #Settings {
   padding-right: 10px;
 }
